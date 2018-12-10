@@ -11,6 +11,6 @@ category.subCategories.splice(2,0,{ // Insert at the third spot.
   icon: "icon-go-gopher",
   // Required. Items matching any tag will appear in this subcategory.
   tags: [
-    "test"
+    "httpd"
   ]
 });
