@@ -31,3 +31,8 @@ window.OPENSHIFT_CONSTANTS.SERVICE_CATALOG_CATEGORIES.unshift({
     }
   ]
 });
+
+// Add a namespace containing the image streams and/or templates
+window.OPENSHIFT_CONSTANTS.CREATE_FROM_URL_WHITELIST.push(
+  'myproject'
+);
